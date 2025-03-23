@@ -1,0 +1,179 @@
+
+.navbar{
+  height: 3.9rem;
+  background-color: #171c1c;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+/* .logo img{
+  height: 100%;
+  width: 100%;
+} */
+
+.nav-logo{
+  height: 3rem;
+  width: 7rem;
+}
+
+.border{
+  border: 2px solid transparent;
+}
+
+.border:hover{
+  border: 1.5px solid white;
+}
+
+.nav-amazon1{
+  height: 100%;
+  width: 100%;
+}
+
+.nav-amazon2{
+  display: none;
+}
+
+
+
+ /* box 2 */
+
+.nav-add-first{
+  font-size: 0.7rem;
+  margin-left: 17px;
+  padding-top: 10px;
+  color: #aeaeae;
+}
+
+.nav-address-link{
+  color: white;
+  text-decoration: none;
+}
+.nav-address{
+  height: 50px;
+  width: 90px;
+  padding-left: 8px;
+}
+.nav-add-second{
+  display: flex;
+  font-size: 1rem;
+  align-items: center;
+}
+.fa-solid{
+  margin-bottom: 4px;
+}
+.nav-add-sec-para{
+  margin-left: 5px;
+}
+
+
+
+
+/* box 3 */
+
+.nav-search{
+
+  display: flex;
+  background-color: #ab368a;
+  justify-content: space-evenly;
+  height: 40px;
+  width: 875px;
+  border-radius: 3px;
+}
+
+.nav-search:hover{
+  border: 2px solid rgb(228, 137, 10);
+
+}
+
+.nav-search-icon-button{
+  height: 40px;
+  width: 45px;
+  background-color: rgb(177, 131, 14);
+  border: none;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+.search-select{
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  background-color: #F3F3F3;
+  width: 45px;
+  color: #5e6565;
+  border:  none;
+  text-align: center;
+}
+.search-input{
+  width: 100%;
+  font-size:17px;
+  padding-left: 15px;
+  border: none;
+}
+
+.search-icon{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  font-size: 1.2rem;
+
+  color: black;
+}
+
+/* box 4 */
+
+.nav-orders-link{
+  color: white;
+  text-decoration: none;
+}
+.nav-four{
+  height: 50px;
+  width: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.nav-four-one{
+  font-size: 12px;
+}
+
+/* box 5 */
+
+.nav-cart-link{
+  color: white;
+  text-decoration: none;
+}
+
+.nav-cart{
+  display: flex;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  width: 90px;
+  position: relative;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.nav-cart-image{
+  height: 40px;
+  width: 70px;
+}
+
+.cart-quantity{
+  position: absolute;
+  top: 2px;
+  right: 3.3rem;
+  font-size: 19px;
+  color: rgb(240, 136, 4);
+  font-weight: 700;
+}
+
+.nav-cart-text{
+  margin-top: 10px;
+  margin-left: 5px;
+}
